@@ -1,0 +1,56 @@
+
+{% extends login.html %}
+{% block tips %}
+
+
+
+        <script>
+
+        </script>
+
+        <style>
+            #popup {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                z-index: 1;
+            }
+            
+            #popup-content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: getRandomColor();
+                color: white;
+                font-family:'Lucida Sans';
+                font-size: 20px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            
+            #popup-content p {
+              margin-bottom: 20px;
+            }
+            
+            #popup-content button {
+              background-color: rgba(255, 255, 255, 0.904);
+              color: black;
+              border-radius: 5px;
+              padding: 10px;
+              border-style:none;
+            }
+
+        </style>
+    </head>
+    <body >
+        
+        
+        
+        
+        
+        
+            </body>
+</html>
+{% endblock tips %}
